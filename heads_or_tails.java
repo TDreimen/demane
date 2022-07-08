@@ -17,6 +17,10 @@ class heads_or_tails{
 	}
 
 	System.out.println("Heads: " +c1+ ", Tails: " +c2);
-	
+
+	if(c1>c2){
+	    
+	    System.out.println("You won");
+	}else 	System.out.println("You lost");
     }
 }
